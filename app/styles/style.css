@@ -1,0 +1,200 @@
+
+
+body{
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+div.container {
+  width: 100%;
+  height: 5%;
+}
+
+
+a {
+  color: #ac005f;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+ul{
+  padding-left: 38%;
+}
+
+li{
+  list-style: none;
+}
+
+li.small-image{
+  width: 50px;
+}
+
+li.small-image img{
+  width: 60%;
+}
+
+img.ng-scope {
+  position: absolute;
+}
+
+#contained {
+  position: absolute;
+}
+
+img{
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+img.image.image-circle.thumbnail.center-block {
+  max-height: 550px;
+  max-width: 450px;
+}
+
+
+.img-wrap {
+  background: #f8f8f8;
+  height: 200px;
+  margin: 0 auto 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+.img-thumbnail {
+  background: none;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+}
+
+.img-thumbnails {
+  margin: 0 auto 10px;
+  width: 200px;
+}
+
+.img-thumbnails .thumbnail {
+  background: #f8f8f8;
+  border: 0;
+  margin-right: 25px;
+  min-height: 50px;
+}
+
+.img-thumbnails .thumbnail:last-child {
+  margin-right: 0;
+}
+
+.nav-pills {
+  margin-bottom: 30px;
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus{
+  color: #ac005f;
+}
+
+.nav-pills > li.active > a,
+.btn-primary,
+.btn-primary:focus {
+  background: #ac005f;
+  border: 0;
+}
+
+.nav-pills > li.active > a:hover,
+.btn-primary:hover {
+  background: #ac005f;
+}
+
+.ng-invalid.ng-dirty {
+  border-color: red;
+}
+
+.ng-valid.ng-dirty {
+  border-color: green;
+}
+
+.cart {
+  margin-left: 600px;
+}
+
+/*.navbar-default {
+  margin-bottom: -250px;
+  width: 150px;
+}*/
+
+nav.navbar.navbar-default {
+  border: 0;
+  border-radius: 0;
+  height: 30px;
+  opacity: .45;
+  margin: 0;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: white;
+
+}
+
+body.ng-scope {
+  z-index: -1;
+  position: relative;
+}
+
+a.navbar-brand {
+  color: black;
+  padding-left: 10px;
+}
+
+div#carousel { 
+  position: relative;
+  perspective: 700px; 
+  background: #100000; 
+  padding-top: 0; 
+  font-size:0; 
+  margin-bottom: 0rem; 
+  overflow: hidden; 
+}
+figure#spinner { 
+  position: relative;
+  transform-style: preserve-3d; 
+  height: 400px; 
+  transform-origin: 50% 50% -500px; 
+  transition: 1s; 
+} 
+figure#spinner img { 
+  position: relative;
+  border-radius: 50%;
+  width: 40%; max-width: 425px; 
+  position: absolute; left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline:1px solid transparent; 
+}
+figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+}
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+div#carousel ~ span { 
+  color: #fff; 
+  margin-top: -50%; 
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  transition: 0.6s color; 
+  position: relative; 
+  margin-top: -6rem; 
+  border-bottom: none; 
+  line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+div.list-group-item.ng-scope {
+  max-width: 75%;
+  margin-left: 13%;
+}
