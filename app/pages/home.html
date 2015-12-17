@@ -1,0 +1,34 @@
+<script>
+ var angle = 0;
+  function galleryspin(sign) { 
+    spinner = document.querySelector("#spinner");
+      if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
+    spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");}
+</script>
+
+<div id="contained">
+   
+<div id=carousel>
+<figure id=spinner>
+
+<img ng-src="images/backpack.png" alt="">
+  <img ng-src="images/celine1.png" alt="">
+  <img ng-src="images/mc.png" alt="">
+  <img ng-src="images/gucci.png" alt="">
+  <img ng-src="images/jim.png" alt="">
+  <img ng-src="images/blue.png" alt="">
+  <img ng-src="images/gucci.png" alt="">
+  <img ng-src="images/celine1.png" alt="">
+</figure>
+  <img ng-src="{{photo}}"/>
+</div>
+  <span style=float:left margin-top=-50% class=ss-icon onclick="galleryspin('-')">&lt;</span>
+  <span style=float:right margin-top=-50% class=ss-icon onclick="galleryspin('')">&gt;</span>
+
+</div>
+
+
+
+
+
+
